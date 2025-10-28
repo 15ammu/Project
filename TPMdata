@@ -1,6 +1,4 @@
-#code for convert  counts to TPM 
-
-
+#code for convert  countdata  to TPM (because our data is counts and expression)
 # Load required packages
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 if (!requireNamespace("biomaRt", quietly = TRUE)) BiocManager::install("biomaRt")
